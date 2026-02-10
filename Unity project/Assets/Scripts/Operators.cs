@@ -22,5 +22,9 @@ public class Operators : MonoBehaviour
         Debug.Log("Health: " + health);
         Debug.Log("Damage: " + dmgValue);
         Debug.Log("Medpack: " + medpack);
+
+        health -= dmgValue;
+
+        Debug.Log("Health: " + health);
     }
 }
