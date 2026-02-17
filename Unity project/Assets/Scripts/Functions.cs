@@ -39,7 +39,7 @@ public class Functions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     void DisplayHealth()
@@ -64,6 +64,12 @@ public class Functions : MonoBehaviour
     {
         return a + b;
     }
+    /// <summary>
+    /// Subtracts the Smaller number from the Bigger number
+    /// </summary>
+    /// <param name="a"> Bigger Number </param>
+    /// <param name="b"> Smaller Number</param>
+    /// <returns></returns>
     public int Subtract(int a, int b)
     {
         return a - b;
