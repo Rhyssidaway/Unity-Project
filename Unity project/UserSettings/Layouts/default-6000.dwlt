@@ -351,8 +351,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "UnityEditor.MainToolbarWindow\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 961
-    y: 51
+    x: 0
+    y: 0
     width: 958
     height: 36
   m_SerializedDataModeController:
@@ -617,8 +617,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 961
-    y: 725
+    x: 0
+    y: 662
     width: 613
     height: 260
   m_SerializedDataModeController:
@@ -669,9 +669,7 @@ MonoBehaviour:
       m_Data: 35084
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 35080
-    - m_Data: 1000000000
-    - m_Data: 2147483647
+    - m_Data: 35228
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -704,9 +702,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 35080
-    - m_Data: 1000000000
-    - m_Data: 2147483647
+    - m_Data: 35228
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -787,8 +783,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1575
-    y: 87
+    x: 1
+    y: 24
     width: 343
     height: 590
   m_SerializedDataModeController:
@@ -838,8 +834,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 961
-    y: 87
+    x: 0
+    y: 24
     width: 300
     height: 612
   m_SerializedDataModeController:
@@ -910,8 +906,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1262
-    y: 87
+    x: 302
+    y: 24
     width: 311
     height: 612
   m_SerializedDataModeController:
@@ -1338,7 +1334,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.123824745, y: 0.6639759, z: -0.112825796, w: -0.7287651}
     speed: 2
-    m_Value: {x: -0.12382321, y: 0.66396767, z: -0.112824395, w: -0.728756}
+    m_Value: {x: -0.123824745, y: 0.6639759, z: -0.112825796, w: -0.7287651}
   m_Size:
     m_Target: 8.709839
     speed: 2
@@ -1500,8 +1496,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1575
-    y: 703
+    x: 1
+    y: 640
     width: 343
     height: 282
   m_SerializedDataModeController:
