@@ -3,11 +3,14 @@ public class Functions : MonoBehaviour
 {
     public int myHealth = 100;
     public int myDamage = 10;
+    private float random;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        random += RandomNumber();
+
         DisplayHealth(); // 100
 
         myHealth = myHealth + 10; // Adding 10 to my health
@@ -17,6 +20,8 @@ public class Functions : MonoBehaviour
         myHealth += 10; // Adding 10 to my health
 
         DisplayHealth(); // 120
+
+        Debug.Log("Random Number: " + random);
     }
 
     // Update is called once per frame
@@ -28,6 +33,11 @@ public class Functions : MonoBehaviour
     void DisplayHealth()
     {
         Debug.Log("My current Health is: " + myHealth);
+    }
+
+    public float RandomNumber()
+    {
+        return Random.value;
     }
     
 }
