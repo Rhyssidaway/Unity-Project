@@ -1,9 +1,10 @@
+using Unity.VisualScripting;
 using UnityEditor.Build.Reporting;
 using UnityEngine;
 
 public class Raycast : MonoBehaviour
 {
-    [Header("Interation Variables")]
+    [Header("Variables")]
     public Transform player;
     public Transform cube;
     public Rigidbody cubeRb;
@@ -15,7 +16,6 @@ public class Raycast : MonoBehaviour
     public float pushForce = 1f;
     private bool ePressed = false;
 
-    [Header("Raycast Variables")]
     LayerMask layerMask;
     public Material red;
     public Material green;
