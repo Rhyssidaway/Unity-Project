@@ -31,7 +31,6 @@ public class Interact : MonoBehaviour
                 ePressed = true;
                 if (ePressed)
                 {
-                    Debug.Log("E Pressed");
                     cubeRb.AddForce(Vector3.up * jumpForce * 10, ForceMode.Impulse);
                     cubeRb.AddForce(player.forward * pushForce * 10, ForceMode.Impulse);
                 }
