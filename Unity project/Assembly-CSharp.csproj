@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\IfStatements.cs" />
     <Compile Include="Assets\Scripts\Loops.cs" />
     <Compile Include="Assets\Scripts\Functions.cs" />
+    <Compile Include="Assets\Scripts\DataStructures.cs" />
     <Compile Include="Assets\Scripts\Variables.cs" />
     <Compile Include="Assets\Scripts\Operators.cs" />
   </ItemGroup>
