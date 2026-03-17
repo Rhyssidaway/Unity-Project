@@ -949,7 +949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7961c59ab97aa83468fcc2267fdea8bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FileManager
-  textFileName: 
+  textFileName: playerData.txt
   textFileContents: []
 --- !u!4 &916114908
 Transform:

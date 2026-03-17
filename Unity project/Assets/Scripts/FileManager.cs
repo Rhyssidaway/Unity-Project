@@ -8,25 +8,27 @@ public class FileManager : MonoBehaviour
 
     void Start()
     {
-        CreateNewTextFile("PlayerData");
+        textFileName = "playerData.txt";
+        CreateNewTextFile(textFileName);
     }
-
+    /// <summary>
+    /// Creates a new Text file at a location if it doesnt already exist. Has input string textFileName.
+    /// </summary>
+    /// <param name="textFileName"></param>
     public void CreateNewTextFile(string textFileName)
     {
         // Create a file path string for the full path on that specific computer
-        string directoryPath = Application.dataPath + "/DataFiles/" + textFileName + ".txt";
+        string directoryPath = Application.dataPath + "/DataFiles/" + textFileName;
 
         // Check if the path exists
         // If not then create the folder
         if (File.Exists(directoryPath) == false)
         {
             // Doesnt exist so create it
-            Directory.CreateDirectory(Application.dataPath + "/DataFiles");
+            Directory.CreateDirectory(Application.dataPath + "/DataFiles/");
 
             // Create the file with the name of the file as the first line
             File.WriteAllText(directoryPath, textFileName + '\n');
-                
-
         }
     }
 
