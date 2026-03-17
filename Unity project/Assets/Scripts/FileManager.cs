@@ -8,13 +8,13 @@ public class FileManager : MonoBehaviour
 
     void Start()
     {
-        
+        CreateNewTextFile("PlayerData");
     }
 
     public void CreateNewTextFile(string textFileName)
     {
         // Create a file path string for the full path on that specific computer
-        string directoryPath = Application.dataPath + "/DataFiles" + textFileName + ".txt";
+        string directoryPath = Application.dataPath + "/DataFiles/" + textFileName + ".txt";
 
         // Check if the path exists
         // If not then create the folder
@@ -25,6 +25,8 @@ public class FileManager : MonoBehaviour
 
             // Create the file with the name of the file as the first line
             File.WriteAllText(directoryPath, textFileName + '\n');
+                
+
         }
     }
 
