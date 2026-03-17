@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Scripts\IfStatements.cs" />
+    <Compile Include="Assets\Scripts\FileManager.cs" />
     <Compile Include="Assets\Scripts\Loops.cs" />
     <Compile Include="Assets\Scripts\Functions.cs" />
     <Compile Include="Assets\Scripts\DataStructures.cs" />
